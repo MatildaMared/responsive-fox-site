@@ -7,7 +7,7 @@ html body {
 }
 
 header {
-  background-image: url("/images/fox-background.jpg");
+  background-image: url(/images/fox-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 0px;
