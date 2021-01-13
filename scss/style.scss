@@ -148,10 +148,6 @@ main {
         a:hover {
             color: $light-color
         }
-        img {
-            width: 100%;
-            border-radius: 25px;
-        }
     }
 }
 
@@ -202,6 +198,17 @@ h1 {
 img {
     width: 100%;
     border-radius: 25px;
+}
+
+@media screen and (min-width: 1700px) {
+    img {
+        width: 60%;
+    }
+    figure {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 hr {
